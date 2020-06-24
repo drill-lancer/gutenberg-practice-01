@@ -1,0 +1,23 @@
+{
+  "name": "wyvern-blocks",
+  "version": "1.0.0",
+  "description": "Test Block",
+  "main": "build/index.js",
+  "scripts": {
+	"start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drill-lancer/wyvern-block.git"
+  },
+  "author": "DRILL LANCER",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/drill-lancer/wyvern-block/issues"
+  },
+  "homepage": "https://github.com/drill-lancer/wyvern-block#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^11.0.0"
+  }
+}

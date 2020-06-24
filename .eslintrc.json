@@ -1,0 +1,20 @@
+{
+	"extends": "wordpress",
+	"plugins": ["react"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        }
+    },
+    "rules": {
+        "no-var": "error",
+        "no-console": "off",
+        "require-jsdoc": "off",
+        "valid-jsdoc": "off",
+        "camelcase": ["warn", { "properties": "never" }],
+        "react/jsx-uses-vars": 1
+    }
+}
