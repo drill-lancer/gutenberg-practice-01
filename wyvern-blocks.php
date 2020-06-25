@@ -26,7 +26,7 @@ function wyvern_blocks_register_block() {
 	$asset_file = include plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
 
 	wp_register_script(
-		'wybern-blocks',
+		'wyvern-blocks',
 		plugins_url( 'build/index.js', __FILE__ ),
 		$asset_file['deoendencies'],
 		$asset_file['version'],
@@ -34,7 +34,7 @@ function wyvern_blocks_register_block() {
 	);
 
 	wp_register_style(
-		'wybern-blocks-editor',
+		'wyvern-blocks-editor',
 		plugins_url( 'editor.css', __FILE__ ),
 		$asset_file['deoendencies'],
 		$asset_file['version'],
@@ -51,7 +51,7 @@ function wyvern_blocks_register_block() {
 	register_block_type(
 		'wyvern-blocks/test-01',
 		array(
-			'editor_script' => 'wybern-blocks',
+			'editor_script' => 'wyvern-blocks',
 		)
 	);
 
@@ -59,8 +59,8 @@ function wyvern_blocks_register_block() {
 		'wyvern-blocks/test-02',
 		array(
 			'style'         => 'wyvern-blocks-style',
-			'editor_style'  => 'wybern-blocks-editor',
-			'editor_script' => 'wybern-blocks',
+			'editor_style'  => 'wyvern-blocks-editor',
+			'editor_script' => 'wyvern-blocks',
 		)
 	);
 }
