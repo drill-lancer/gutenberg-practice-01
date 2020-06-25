@@ -47,7 +47,6 @@ function wyvern_blocks_register_block() {
 		$asset_file['version'],
 	);
 
-
 	register_block_type(
 		'wyvern-blocks/test-01',
 		array(
@@ -57,6 +56,24 @@ function wyvern_blocks_register_block() {
 
 	register_block_type(
 		'wyvern-blocks/test-02',
+		array(
+			'style'         => 'wyvern-blocks-style',
+			'editor_style'  => 'wyvern-blocks-editor',
+			'editor_script' => 'wyvern-blocks',
+		)
+	);
+
+	register_block_type(
+		'wyvern-blocks/test-02',
+		array(
+			'style'         => 'wyvern-blocks-style',
+			'editor_style'  => 'wyvern-blocks-editor',
+			'editor_script' => 'wyvern-blocks',
+		)
+	);
+
+	register_block_type(
+		'wyvern-blocks/test-03',
 		array(
 			'style'         => 'wyvern-blocks-style',
 			'editor_style'  => 'wyvern-blocks-editor',
