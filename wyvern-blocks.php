@@ -33,9 +33,33 @@ function wyvern_blocks_register_block() {
 		true
 	);
 
+	wp_register_style(
+		'wybern-blocks-editor',
+		plugins_url( 'editor.css', __FILE__ ),
+		$asset_file['deoendencies'],
+		$asset_file['version'],
+	);
+
+	wp_register_style(
+		'wyvern-blocks-style',
+		plugins_url( 'style.css', __FILE__ ),
+		$asset_file['deoendencies'],
+		$asset_file['version'],
+	);
+
+
 	register_block_type(
 		'wyvern-blocks/test-01',
 		array(
+			'editor_script' => 'wybern-blocks',
+		)
+	);
+
+	register_block_type(
+		'wyvern-blocks/test-02',
+		array(
+			'style'         => 'wyvern-blocks-style',
+			'editor_style'  => 'wybern-blocks-editor',
 			'editor_script' => 'wybern-blocks',
 		)
 	);
