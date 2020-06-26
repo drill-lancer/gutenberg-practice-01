@@ -1,4 +1,8 @@
-.wp-block-wyvern-blocks-test-02 {
+.wp-block-wyvern-blocks-test-02,
+.wp-block-wyvern-blocks-test-03,
+.wp-block-wyvern-blocks-test-04,
+.wp-block-wyvern-blocks-test-05,
+.wp-block-wyvern-blocks-test-06 {
 	color: green;
 	background: #cfc;
 	border: 2px solid #9c9;

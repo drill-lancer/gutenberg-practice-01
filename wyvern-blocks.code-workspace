@@ -17,7 +17,6 @@
 		"phpcbf.executablePath": "phpcbf.bat",
 		"phpcbf.onsave": true,
 		"javascript.format.enable": false,
-		"jshint.options": {"esversion": 6},
 		"stylelint.autoFixOnSave": true,
 		"[html]": {
 			"editor.formatOnSave": true,
