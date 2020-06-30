@@ -1,2 +1,2 @@
-# wyvern-block
+# gutenberg-practice-01
 Wyvern Block
