@@ -1,10 +1,10 @@
 {
-  "name": "wyvern-blocks",
+  "name": "gutengerg-practice",
   "version": "1.0.0",
   "description": "Test Block",
   "main": "build/index.js",
   "scripts": {
-	"start": "wp-scripts start",
+    "start": "wp-scripts start",
     "build": "wp-scripts build"
   },
   "repository": {

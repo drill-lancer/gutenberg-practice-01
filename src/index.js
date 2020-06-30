@@ -14,7 +14,7 @@ const blockStyle = {
 	padding: '20px',
 };
 
-registerBlockType( 'wyvern-blocks/test-01', {
+registerBlockType( 'gutengerg-practice/test-01', {
 	title: 'Example: Basic (esnext)',
 	icon: 'universal-access-alt',
 	category: 'layout',
@@ -35,7 +35,7 @@ registerBlockType( 'wyvern-blocks/test-01', {
 	},
 } );
 
-registerBlockType( 'wyvern-blocks/test-02', {
+registerBlockType( 'gutengerg-practice/test-02', {
 	title: 'Example: Stylesheets',
 	icon: 'universal-access-alt',
 	category: 'layout',
@@ -56,7 +56,7 @@ registerBlockType( 'wyvern-blocks/test-02', {
 	},
 } );
 
-registerBlockType( 'wyvern-blocks/test-03', {
+registerBlockType( 'gutengerg-practice/test-03', {
 	title: 'Example: Editable (esnext)',
 	icon: 'universal-access-alt',
 	category: 'layout',
@@ -97,7 +97,7 @@ registerBlockType( 'wyvern-blocks/test-03', {
 	},
 } );
 
-registerBlockType( 'wyvern-blocks/test-04', {
+registerBlockType( 'gutengerg-practice/test-04', {
 	title: 'Example: Controls (esnext)',
 	icon: 'universal-access-alt',
 	category: 'layout',
@@ -156,7 +156,7 @@ registerBlockType( 'wyvern-blocks/test-04', {
 		return (
 			<RichText.Content
 				className={
-					'wyvern-blocks-align-${props.attributes.alignment}'
+					'gutengerg-practice-align-${props.attributes.alignment}'
 				}
 				tagName="p"
 				value={ props.attributes.content }
@@ -165,7 +165,7 @@ registerBlockType( 'wyvern-blocks/test-04', {
 	},
 } );
 
-registerBlockType( 'wyvern-blocks/test-05', {
+registerBlockType( 'gutengerg-practice/test-05', {
 	title: 'Example: last post',
 	icon: 'megaphone',
 	category: 'widgets',
@@ -193,7 +193,7 @@ registerBlockType( 'wyvern-blocks/test-05', {
 	} ),
 } );
 
-registerBlockType( 'wyvern-blocks/test-06', {
+registerBlockType( 'gutengerg-practice/test-06', {
 	title: 'Example: last post 2',
 	icon: 'megaphone',
 	category: 'widgets',
@@ -201,14 +201,14 @@ registerBlockType( 'wyvern-blocks/test-06', {
 	edit: ( props ) => {
 		return (
 			<ServerSideRender
-				block="wyvern-blocks/test-06"
+				block="gutengerg-practice/test-06"
 				attributes={ props.attributes }
 			/>
 		);
 	},
 } );
 
-registerBlockType( 'wyvern-blocks/test-07', {
+registerBlockType( 'gutengerg-practice/test-07', {
 	title: 'Example: Inner Blocks',
 	icon: 'megaphone',
 	category: 'layout',
