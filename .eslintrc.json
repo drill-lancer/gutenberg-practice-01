@@ -10,6 +10,7 @@
         }
     },
     "rules": {
+		"comma-dangle": ["error", "always-multiline"],
         "no-var": "error",
         "no-console": "off",
         "require-jsdoc": "off",
