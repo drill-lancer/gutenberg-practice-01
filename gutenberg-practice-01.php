@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Gutenberg Practice
+ * Plugin Name: Gutenberg Practice 01
  * Plugin URI: https://github.com/drill-lancer/gutenberg-practice-01
  * Description: Block Build Test
  * Version: 0.0.1
  * Author: DRILL LANCER
  *
- * @package Gutenberg Practice
+ * @package Gutenberg Practice 01
  */
 
 /**
