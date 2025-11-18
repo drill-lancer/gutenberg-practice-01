@@ -18,6 +18,6 @@
 	},
 	"homepage": "https://github.com/drill-lancer/gutenberg-practice-01#readme",
 	"dependencies": {
-		"@wordpress/scripts": "^12.0.0"
+		"@wordpress/scripts": "^31.0.0"
 	}
 }
